@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53b7c285-e1f1-447f-8b7c-8beabeab3d76">
+  <name>мояработа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мояработа</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2a97074b-2465-4850-9096-950047c2810e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a4288eca-5da5-482e-aa7d-b9c5a491c69c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="10764383-f817-45c9-9a40-c0034f8c53c4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4f0485e7-c4b9-4f9f-8120-475271a61e26"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="45b95166-05b5-4d2d-9bba-802a4120ab94"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dcf07439-b676-4762-b488-14e9d5ff1a21"/>
+  <configurationExtensionCompatibilityMode>8.3.8</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="2ad472a4-32ac-48ed-a025-d7fa90c3eb15">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <constants>Constant.Организация</constants>
+  <constants>Constant.Склад</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <reports>Report.ЗакупкиТоваров</reports>
+  <reports>Report.ОстаткиТоваровПоДаннымДокументам</reports>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+</mdclass:Configuration>
