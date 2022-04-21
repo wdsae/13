@@ -11,4 +11,6 @@
   <content>Catalog.Контрагенты</content>
   <content>Document.РеализацияТоваров</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.ВаловаяПрибыль</content>
 </mdclass:Subsystem>
